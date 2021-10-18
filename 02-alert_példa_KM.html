@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function hiba(){
+            
+            a= confirm("Ez jó");
+            alert(a);
+        }
+        function adat(szöveg){
+            a = prompt("Adja meg a nevét!", szöveg);
+            alert( 'Az ön válasza: ' + a);
+        }
+    </script>
+</head>
+<body>
+    <input type="button", onclick="alert('Alert!!!')" value="Alert"> <br> <br>
+    <input type="button", onclick="hiba()" value="confirm"> <br> <br>
+    <input type="button", onclick="adat('Ide irja a nevét!!!')" value="prompt"> <br> <br>
+</body>
+</html>
